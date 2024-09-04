@@ -1,0 +1,51 @@
+ul {
+    display:inline-block;
+}
+.inline-block {
+    display:inline-block;
+    text-align: center;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 35px;
+    cursor:pointer;
+    
+}
+.nav {
+    display:flex;
+    justify-content: center;
+    margin: 0 auto;
+    z-index: 1;
+}
+.logo {
+    position:absolute;
+    padding:20px;
+}
+body {
+    background-image: 
+        url("../images/markguitar.png"), 
+        url("../images/storefront.png");
+    background-color:antiquewhite;
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position: center 100px;
+    margin:0;
+    padding: 0;
+}
+.megatron {
+    display:flex;
+    flex-direction: column;
+    width: 25%;
+    text-align:center;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:500px;
+    color:white;
+
+}
+.services {
+    background-color:antiquewhite;
+    text-align:center;
+    height:500px;
+    width:90%;
+    margin:0 auto;
+}
