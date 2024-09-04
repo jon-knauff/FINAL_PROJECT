@@ -23,13 +23,14 @@ ul {
 body {
     background-image: 
         url("../images/markguitar.png"), 
-        url("../images/storefront.png");
+        url("../images/dudeguitar.png");
     background-color:antiquewhite;
-    background-repeat:no-repeat;
-    background-size:cover;
-    background-position: center 100px;
+    background-repeat:no-repeat, no-repeat;
+    background-size:100%, 100%;
+    background-position: center top 100px,center bottom;
     margin:0;
     padding: 0;
+    font-family: 'cutive';
 }
 .megatron {
     display:flex;
@@ -43,9 +44,69 @@ body {
 
 }
 .services {
-    background-color:antiquewhite;
+    background-color:#faebd7;
     text-align:center;
     height:500px;
     width:90%;
     margin:0 auto;
+    border-radius: 20px;
+
+}
+.contact {
+    background-color:#faebd7;
+    text-align:center;
+    height:300px;
+    width:90%;
+    margin:0 auto;
+    border-radius: 20px;
+}
+.bookbutton {
+    background-color:pink;
+    border:none;
+    color:white;
+    padding: 15px 32px;
+    text-decoration:none;
+    margin: 4px 2px;
+    cursor:pointer;
+    border-radius:20px;
+    border-color:black;
+    border:5px;
+
+}
+.about{
+    display:flex;
+    margin: 0 auto;
+    justify-content:center;
+    text-align:center;
+    width:90%;
+}
+.bio {
+    background-color:antiquewhite;
+    text-align:center;
+    height:800px;
+    width:50%;
+    margin:0 auto;
+    border-radius: 20px;
+    line-height: 30px;
+    justify-content:center;
+    padding-left:40px;
+    padding-right:40px;
+}
+.headshot {
+    width:50%;
+}
+.footer {
+    position: fixed bottom;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: antiquewhite;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px; 
+    padding: 10px; 
+    box-sizing: border-box;
+
 }
