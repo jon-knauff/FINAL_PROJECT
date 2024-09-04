@@ -41,6 +41,7 @@ body {
     margin-right:auto;
     margin-top:500px;
     color:white;
+    font-size:larger;
 
 }
 .services {
@@ -70,7 +71,8 @@ body {
     cursor:pointer;
     border-radius:20px;
     border-color:black;
-    border:5px;
+    border:solid;
+    font-family: 'cutive';
 
 }
 .about{
@@ -79,6 +81,7 @@ body {
     justify-content:center;
     text-align:center;
     width:90%;
+    align-items:center;
 }
 .bio {
     background-color:antiquewhite;
@@ -91,6 +94,7 @@ body {
     justify-content:center;
     padding-left:40px;
     padding-right:40px;
+    align-items:center;
 }
 .headshot {
     width:50%;
