@@ -69,6 +69,11 @@ body {
     text-align: center;
 }
 
+.subtext {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
 .servicelist {
     background-color: antiquewhite;
     padding: 20px;
