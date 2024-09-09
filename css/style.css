@@ -62,11 +62,21 @@ body {
     width:90%;
     margin:0 auto;
     border-radius: 20px;
+    
 
 }
 
 .servicetitle {
     text-align: center;
+}
+.serviceinfo {
+    text-align: center;
+    width:90%;
+    margin:0 auto;
+    border-radius: 20px;
+    padding-left:40px;
+    padding-right:40px;
+    line-height: 30px;
 }
 
 .subtext {
@@ -243,17 +253,17 @@ body {
         width: 90%;
     }
     .bio {
-        height: 600px;
+        height: auto;
         padding-left: 10px;
         padding-right: 10px;
-        width: 90%;
+        width: 85%;
         margin: 0;
     }
 
     .history {
         flex-direction: column;
         flex-wrap: wrap;
-        gap: 20px;
+        gap: 30px;
     }
 
     .contactsect {
@@ -271,7 +281,7 @@ body {
     .headshot {
         text-align: center;
         width:90%;
-        align-items: ;
+        align-items: 
     }
     .about {
         width:100%;
@@ -293,16 +303,25 @@ body {
         height: auto;
         width:90%;
         margin: 0;
+        justify-content: center;
+        padding-left: 10px;
+        padding-right: 10px;
     }
     
     .historypics {
         margin: 0;
         width:90%;
+        max-height: auto;
+    
     }
     .history {
-        width: 90%;
+        width: 95%;
         gap: 30px;
-        margin: 0;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction:column;
+        max-height: 2000px;
     }
     .split-para {
         font-size: 0.9em;
@@ -311,4 +330,11 @@ body {
     .service-price {
         font-size: 0.9em;
     }
+    .serviceinfo {
+        padding: 0 10px;
+        margin: 0;
+        height: auto;
+        max-width: 90%;
+    }
+    
 }
