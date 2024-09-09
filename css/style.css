@@ -19,11 +19,67 @@ ul {
     z-index: 1;
     background-color: antiquewhite;
 }
+a {
+    color:black;
+}
 .logo {
     position:absolute;
     padding:20px;
 }
-img {
+.sidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-color: #faebd7;
+    overflow-x: hidden;
+    transition: 0.3s ease;
+    padding-top: 60px;
+    box-shadow: -2px 0 5px rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+}
+.sidebar ul{
+    list-style-type: none;
+}
+
+.sidebar a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidebar a:hover {
+    color: #e60023;
+}
+
+.sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    display:none;
+    cursor: pointer;
+}
+
+
+.burger {
+    position: Absolute;
+    justify-content: center;
+    top: 0;
+    right: 0;
+    padding: 35px;
+    display:none;
+    cursor:pointer;
+    width:40px;
+    height: 40px;
+    align-items: center;
+    z-index: 999;
+}
+.burger img {
     max-width: 100%;
     height: auto;
 }
@@ -335,6 +391,9 @@ body {
         margin: 0;
         height: auto;
         max-width: 90%;
+    }
+    .burger {
+        display: flex;
     }
     
 }
