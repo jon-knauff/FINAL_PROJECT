@@ -134,6 +134,14 @@ body {
     margin: 0;
 
 }
+.megatroncontent {
+    Margin-left: 100px;
+    margin-right: 100px;
+}
+.megatroncontent p {
+    Margin-left: 100px;
+    margin-right: 100px;
+}
 .text {
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
 }
@@ -227,6 +235,13 @@ body {
     width:100%;
     margin:0 auto;
     border-radius: 20px;
+    box-sizing: border-box;
+
+}
+.contact p {
+    margin: 40px;
+    padding-bottom: 10px;
+    
 }
 .toolbench {
     display:flex;
@@ -235,11 +250,12 @@ body {
     display: flex;
     flex-direction: column;
     width:70%;
-    gap: 30px;
+    gap: 50px;
 }
 #sbw_dxeqju {
     width: 50%;
     height: auto;
+    align-items: stretch;
 }
 .contactsect {
     display:flex;
@@ -250,6 +266,8 @@ body {
     align-items:center;
     gap: 150px;
     max-width: 90%;
+    height: auto;
+
 }
 .bookbutton {
     background-color:#F268BE;
@@ -263,6 +281,9 @@ body {
     font-family: 'cutive';
     text-shadow: #000000;
 
+}
+.bookbutton:hover {
+    background-color: black;
 }
 .about{
     display:flex;
@@ -291,9 +312,13 @@ body {
     align-items:center;
     box-shadow: 0 4px 8px rgba(69, 66, 66, 0.1);
 }
+.bio p {
+    margin: 20px;
+}
 .headshot {
     width:50%;
     flex: 1;
+    max-height: auto;
 }
 .historywords {
     background-color:antiquewhite;
@@ -306,7 +331,9 @@ body {
     padding-left:40px;
     padding-right:40px;
     height:auto;
-
+}
+.historywords p {
+    margin: 20px;
 }
 .historypics {
     width: 70%;
@@ -346,6 +373,7 @@ body {
     gap: 20px;
     max-height: auto;
     max-width: 90vw;
+    gap: 30px;
 }
 .footer {
     position: fixed bottom;
@@ -377,6 +405,10 @@ body {
         padding-right: 10px;
         width: 85%;
         margin: 0;
+    }
+    .megatroncontent {
+        margin-left: 5px;
+        margin-right: 5px;
     }
 
     .history {
