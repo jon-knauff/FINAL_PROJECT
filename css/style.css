@@ -9,7 +9,7 @@ ul {
     padding: 35px;
     cursor:pointer;
     position: fixed top;
-    background-color: antiquewhite;
+    background-color: #F5E6DA;
     
     
 }
@@ -18,14 +18,14 @@ ul {
     justify-content: center;
     margin: 0 auto;
     z-index: 1;
-    background-color: antiquewhite;
+    background-color: #F5E6DA;
 }
 a {
     color:black;
     text-decoration: none;
 }
 a:hover {
-    color:#F268BE;
+    color:#FF69B4;
 }
 .logo {
     position:absolute;
@@ -37,7 +37,7 @@ a:hover {
     position: fixed;
     top: 0;
     right: 0;
-    background-color: #faebd7;
+    background-color: #F5E6DA;
     overflow-x: hidden;
     transition: 0.3s ease;
     padding-top: 60px;
@@ -59,7 +59,7 @@ a:hover {
 }
 
 .sidebar a:hover {
-    color: #F268BE;
+    color: #FF69B4;
 }
 
 .sidebar .closebtn {
@@ -151,7 +151,7 @@ body {
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
 }
 .services {
-    background-color:#faebd7;
+    background-color:#F5E6DA;
     height:auto;
     width:90%;
     margin:0 auto;
@@ -180,7 +180,7 @@ body {
 }
 
 .servicelist {
-    background-color: antiquewhite;
+    background-color: #F5E6DA;
     padding: 20px;
     border-radius: 10px;
     max-width: 800px;
@@ -234,7 +234,7 @@ body {
 
 
 .contact {
-    background-color:#faebd7;
+    background-color:#F5E6DA;
     text-align:center;
     height:auto;
     width:100%;
@@ -250,6 +250,7 @@ body {
 }
 .toolbench {
     display:flex;
+    border-radius: 20px;
 }
 .contact2 {
     display: flex;
@@ -261,6 +262,7 @@ body {
     width: 50%;
     height: auto;
     align-items: stretch;
+    border-radius: 20px;
 }
 .contactsect {
     display:flex;
@@ -275,7 +277,7 @@ body {
 
 }
 .bookbutton {
-    background-color:#F268BE;
+    background-color:#FF69B4;
     border:solid 3px white;
     color:white;
     padding: 15px 32px;
@@ -300,8 +302,8 @@ body {
     background-color: black;
 }
 .servicelistbutton {
-    background-color:#F268BE;
-    border:none;
+    background-color:#FF69B4;
+    border:Solid 3px white;
     color:white;
     padding: 15px 32px;
     text-decoration:none;
@@ -327,12 +329,11 @@ body {
    
 }
 .bio {
-    background-color:antiquewhite;
+    background-color:#F5E6DA;
     text-align:center;
     flex: 1;
     height:800px;
     width:30%;
-    
     border-radius: 20px;
     line-height: 30px;
     justify-content:center;
@@ -356,7 +357,7 @@ hr {
     max-height: auto;
 }
 .historywords {
-    background-color:antiquewhite;
+    background-color:#F5E6DA;
     text-align:center;
     width:30%;
     margin:0;
@@ -415,7 +416,7 @@ hr {
     bottom: 0;
     left: 0;
     width: 100%;
-    background-color: antiquewhite;
+    background-color: #F5E6DA;
     height: 150px;
     display: flex;
     justify-content: center;
