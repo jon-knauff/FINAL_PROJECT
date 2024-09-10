@@ -224,17 +224,22 @@ body {
     background-color:#faebd7;
     text-align:center;
     height:300px;
-    width:50%;
+    width:100%;
     margin:0 auto;
     border-radius: 20px;
 }
-.api {
-    background-color:#faebd7;
-    text-align:center;
-    height:300px;
-    width:50%;
-    margin:0 auto;
-    border-radius: 20px; 
+.toolbench {
+    display:flex;
+}
+.contact2 {
+    display: flex;
+    flex-direction: column;
+    width:70%;
+    gap: 30px;
+}
+#sbw_dxeqju {
+    width: 50%;
+    height: auto;
 }
 .contactsect {
     display:flex;
@@ -256,6 +261,7 @@ body {
     cursor:pointer;
     border-radius:20px;
     font-family: 'cutive';
+    text-shadow: #000000;
 
 }
 .about{
@@ -310,6 +316,7 @@ body {
 }
 .slide {
     display:none;
+
 }
 .slide img{
     width: 100%;
@@ -386,6 +393,9 @@ body {
     .contact, .api {
         width: 100%;
     }
+    .contact2 {
+        width: 100%;
+    }
     
     .inline-block {
         display:none;
@@ -452,5 +462,7 @@ body {
     .burger {
         display: flex;
     }
-    
+    #sbw_dxeqju {
+        width: 90%;
+    }
 }
