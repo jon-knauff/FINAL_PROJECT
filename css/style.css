@@ -331,7 +331,7 @@ body {
     text-align:center;
     flex: 1;
     height:800px;
-    width:50%;
+    width:30%;
     margin:0 auto;
     border-radius: 20px;
     line-height: 30px;
@@ -343,7 +343,7 @@ body {
     margin: 20px;
 }
 .headshot {
-    width:50%;
+    width:70%;
     flex: 1;
     max-height: auto;
 }
