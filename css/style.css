@@ -236,7 +236,7 @@ body {
 .contact {
     background-color:#faebd7;
     text-align:center;
-    height:300px;
+    height:auto;
     width:100%;
     margin:0 auto;
     border-radius: 20px;
@@ -332,15 +332,23 @@ body {
     flex: 1;
     height:800px;
     width:30%;
-    margin:0 auto;
+    
     border-radius: 20px;
     line-height: 30px;
     justify-content:center;
     align-items:center;
     box-shadow: 0 4px 8px rgba(69, 66, 66, 0.1);
 }
+.def{
+    width:50%;
+    text-align:center;
+    justify-content: center;
+    margin: 0 auto;
+}
+hr {
+}
 .bio p {
-    margin: 20px;
+    margin: 60px;
 }
 .headshot {
     width:70%;
